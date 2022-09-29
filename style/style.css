@@ -1,4 +1,4 @@
- /* GLOBAL */
+/* GLOBAL */
 *{
      box-sizing: border-box;
 }
@@ -8,10 +8,14 @@ body{
      font-family: "Open Sans" ,"Arial", sans-serif;
      font-size: 18px;
      line-height: 1.5;
-     background-color: #e5e5e5e5;
      color: #444;
 }
- /* CONTAINER */
+*:focus{
+     outline: 2px dotted #de2e54;
+     outline-offset: 2px;
+     border-radius: 6px;
+}
+/* CONTAINER */
 .container{
      width: 100%;
      max-width: 1160px;
@@ -20,16 +24,91 @@ body{
      margin-right: auto;
      margin-left: auto;
 }
-   /* SITE HEADER */
+/* SITE HEADER */
 .site-header{
      padding: 24px 0;
 }
 .site-header-container{
      display: flex;
      justify-content: space-between;
+     align-items: center;
 }
 /* SITE LOGO */
 .site-logo{
      display: flex;
+     text-decoration: none;
+     align-items: center;
+     color: #222;
+     font-size: 24px;
+     font-weight: 600;
+     transition: 0.5s ease;
 
+}
+.site-logo:hover{
+     color: #de2e54;
+}
+.site-logo:active{
+     opacity: 0.6;
+}
+.site-logo-img{
+     margin-right: 16px;
+}
+
+/* SITENAV */
+.sitenav{
+     font-size: 14px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-decoration: none;
+
+}
+.sitenav-list{
+     display: flex;
+     align-items: center;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+
+
+}
+.sitenav-item:not(:last-child){
+     margin-right: 32px;
+}
+.sitenav-link{
+     display: block;
+     text-decoration: none;
+     color: #222;
+     transition: 0.5s ease;
+}
+.sitenav-link:hover{
+     color: #de2e54;
+}
+.sitenav-link:active{
+     opacity: 0.6;
+}
+/* MAIN LINK  */
+.main-link{
+     display: inline-block;
+     font-family: "Open Sans Condensed", "Arial" , sans-serif;
+     font-size: 15px;
+     border: 2px solid #de2e54;
+     padding: 10px 22px;
+     border-radius: 8px;
+     letter-spacing: 2px;
+     background-color: #de2e54;
+     color: #fff;
+     text-decoration: none;
+     text-transform: uppercase;
+     transition: 0.5s ease;
+}
+.main-link:hover{
+
+     background-color: #fff;
+     color: #de2e54;
+}
+.main-link:active{
+     background-color: #de2e54;
+     color: #fff;
+     opacity: 0.6;
 }
