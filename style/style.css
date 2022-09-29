@@ -5,6 +5,11 @@
 body{
      padding: 0;
      margin: 0;
+     font-family: "Open Sans" ,"Arial", sans-serif;
+     font-size: 18px;
+     line-height: 1.5;
+     background-color: #e5e5e5e5;
+     color: #444;
 }
  /* CONTAINER */
 .container{
@@ -14,4 +19,17 @@ body{
      padding-right: 30px;
      margin-right: auto;
      margin-left: auto;
+}
+   /* SITE HEADER */
+.site-header{
+     padding: 24px 0;
+}
+.site-header-container{
+     display: flex;
+     justify-content: space-between;
+}
+/* SITE LOGO */
+.site-logo{
+     display: flex;
+
 }
