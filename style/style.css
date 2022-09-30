@@ -1,4 +1,4 @@
-/* GLOBAL */
+                                                               /* GLOBAL */
 *{
      box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ body{
      outline-offset: 2px;
      border-radius: 6px;
 }
-/* CONTAINER */
+                                                                /* CONTAINER */
 .container{
      width: 100%;
      max-width: 1160px;
@@ -24,7 +24,7 @@ body{
      margin-right: auto;
      margin-left: auto;
 }
-/* SITE HEADER */
+                                                                   /* SITE HEADER */
 .site-header{
      padding: 24px 0;
 }
@@ -33,7 +33,7 @@ body{
      justify-content: space-between;
      align-items: center;
 }
-/* SITE LOGO */
+                                                                        /* SITE LOGO */
 .site-logo{
      display: flex;
      text-decoration: none;
@@ -55,7 +55,7 @@ body{
      border-radius: 50%;
 }
 
-/* SITENAV */
+                                                                /* SITENAV */
 .sitenav{
      font-size: 14px;
      letter-spacing: 2px;
@@ -88,7 +88,7 @@ body{
 .sitenav-link:active{
      opacity: 0.6;
 }
-/* MAIN LINK  */
+                                                                /* MAIN LINK  */
 .main-link{
      display: inline-block;
      font-family: "Open Sans Condensed", "Arial" , sans-serif;
@@ -113,9 +113,46 @@ body{
      color: #fff;
      opacity: 0.6;
 }
+                                                           /* MAIN SECTION */
+.hero{
+     background-color: #0eb4c1;
+     color: #fff;
+}
+.hero-content{
+     padding: 120px 0;
+     width: 500px;
+}
+.hero-heading{
+     margin-top: 0;
+     font-family: "Open Sans Condensed", "Open Sans",  "Arial" , sans-serif;
+     font-size: 29px;
+     line-height: 1.2;
+     margin-bottom: 16px;
+}
+.hero-text{
+     width: 440px;
+     margin-top: 0;
+     margin-bottom: 36px;
+}
+.main-link-solid:hover{
+     border-color: transparent;
+     background-color: rgba(222, 46, 84, 0.8);
+     color: #fff;
+}
+.main-link-solid:active{
+     background-color: rgba(222, 46, 84, 0.6);
+     opacity: 1;
+}
+.hero-container{
+     display: flex;
+     justify-content: space-between;
+}
+.hero-img{
+     align-self: flex-end;
+}
 
 
-/* SITE FOOTER */
+                                                           /* SITE FOOTER */
 .site-footer{
      padding: 24px 0;
      background-color: #222;
